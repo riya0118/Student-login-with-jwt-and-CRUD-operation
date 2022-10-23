@@ -100,6 +100,6 @@ router.post("/update", (req, res) => {
 
 router.get("/logout", (req, res) => {
   localStorage.clear();
-  res.redirect("/students/");
+  res.redirect("/students");
 })
 module.exports = router;
